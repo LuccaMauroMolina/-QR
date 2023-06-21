@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+.marco{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.border{
+    border: 1px solid black;
+    border-radius: 5%;
+    width: 290px;
+    height: 450px;
+    background: rgb(253, 253, 253);
+}
+
+img{
+    width: 250px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin: 15px;
+}
+
+body{
+    background: rgb(220, 247, 255)
+}
+
+.image{
+    display: grid;
+    place-items: center;
+}
+
+
+.texto{
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.oscuro{
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+}
+
+.oscuro-2{
+    font-weight: 700;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+}
+
+.claro{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    opacity: 0.5;
+}
+
+.level{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    opacity: 0.5;
+}
+
+.frontend{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    opacity: 0.5;
+}
